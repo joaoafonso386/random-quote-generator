@@ -36,7 +36,7 @@ export function QuoteBox() {
       >
         - {!isLoading && quote.author}
       </span>
-      <div className="d-flex justify-content-between">
+      <div>
         <NewQuoteButton />
       </div>
     </div>

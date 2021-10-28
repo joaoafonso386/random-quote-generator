@@ -14,7 +14,7 @@ export const NewQuoteButton = () => {
   }
 
   return (
-    <div>
+    <div className="button-counter-container">
       <button
         type="button"
         className="btn text-white rounded-3 td-1500"
@@ -24,7 +24,12 @@ export const NewQuoteButton = () => {
       >
         <span>New Quote</span>
       </button>
-      <span>Quotes generated: {count}</span>
+      <span
+        style={{ backgroundColor: state.color }}
+        className="ml-auto p-1 alert alert-primary rounded count-style"
+      >
+        Quotes generated: {count}
+      </span>
     </div>
   );
 };
