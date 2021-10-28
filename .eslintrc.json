@@ -21,7 +21,6 @@
   "rules": {
     "react/prop-types": "off",
 
-    
     // suppress errors for not default export a single function in a file
     "import/prefer-default-export": "off",
 

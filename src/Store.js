@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, { createContext, useReducer } from "react";
 import { reducer } from "./reducer";
 import { getRandomColor } from "./utilities/getRandomColor";
