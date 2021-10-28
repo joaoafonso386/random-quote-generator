@@ -17,7 +17,7 @@ export function QuoteBox() {
 
   return (
     <div
-      className="w-50 quote-box col-lg-5 d-flex flex-column bg-white p-5 rounded-3"
+      className="w-50 quote-box col-lg-5 d-flex flex-column bg-white p-5 border-3 border-secondary rounded-3"
       id="quote-box"
     >
       <div className="col-10 text-center align-self-center">

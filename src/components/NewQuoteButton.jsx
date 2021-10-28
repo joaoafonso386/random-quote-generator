@@ -4,7 +4,7 @@ import { Context } from "../Store";
 
 export const NewQuoteButton = () => {
   const [state, dispatch] = useContext(Context);
-  const [count, setCounter] = useState(0);
+  const [count, setCounter] = useState(1);
 
   function handleClick(e) {
     e.preventDefault();
